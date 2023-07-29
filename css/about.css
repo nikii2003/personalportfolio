@@ -1,0 +1,17 @@
+h4{
+    font-family: 'Asap Condensed', sans-serif;
+}
+p{
+    font-family: 'Lumanosimo', cursive;
+    font-size: 13px;
+}
+.objective{
+    height: 500px;
+    width: 600px;
+    border: 0.05px solid rgb(207, 202, 202);
+    display: block;
+    margin-left: auto;
+   margin-right: auto;
+   padding: 20px;
+   margin-top: 50px;
+}
