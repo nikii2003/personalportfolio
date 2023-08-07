@@ -16,10 +16,10 @@ font-family: 'Lumanosimo', cursive;
 .navbar{
     display: flex;
     justify-content: space-between;
-  padding-top: 40px;
+  padding-top: 10px;
   padding-left: 10%;
   padding-right: 10%;
-
+ 
 }
 nav{
     display: flex;
@@ -28,16 +28,18 @@ nav{
     padding-top: 0px;
     padding-left: 10%;
     padding-right: 10%;
+   
 }
 nav ul li{
     list-style-type: none;
    display: inline-block;
    padding: 10px 20px;
-
+ 
 }
 nav ul li a{
     text-decoration: none;
     color: white;
+   
 }
 nav ul li a:hover{
     color: rgb(224, 226, 81);
@@ -74,6 +76,9 @@ margin-top: 80px;
 .btn{
     font-family: 'Asap Condensed', sans-serif;
     font-size: 15px;  
+}
+.girl-img{
+    margin-left: 140px;
 }
 /* NORMAL MOBILE DEVICES */
 @media screen and (min-width:400px) and (max-width:600px)
