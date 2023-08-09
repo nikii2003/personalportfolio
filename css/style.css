@@ -83,7 +83,7 @@ margin-top: 20px;
 
 }
 .about-me-content{
-    height: 500px;
+    height: 650px;
     width: 1090px;
     box-shadow: 0px 0px 10px 1px #FF6666 ;
     display: block;
@@ -106,11 +106,41 @@ margin-top: 20px;
 .skill-card{
     height: 150px;
     width: 150px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .skill-card-container{
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
+}
+.skill-card-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.project-card{
+    height: 300px;
+    width: 455px;
+   box-shadow: 2px 1px 5px 2px #FF6666;
+    margin: 30px;
+}
+.project-card-container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.project-card-container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.project-card-overall{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
 }
 /* NORMAL MOBILE DEVICES */
 @media screen and (min-width:400px) and (max-width:600px)
