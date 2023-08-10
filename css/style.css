@@ -21,7 +21,7 @@ font-family: 'Lumanosimo', cursive;
   padding-top: 10px;
   padding-left: 10%;
   padding-right: 10%;
- 
+ box-shadow: 0 -2px 15px -2px black;
 }
 nav{
     display: flex;
@@ -142,6 +142,54 @@ margin-top: 20px;
     margin-top: 30px;
 
 }
+/* .contact-left{
+    flex-basis: 35%;
+} */
+form{
+   display: flex;
+   flex-direction: column;
+   height: 300px;
+   width: 500px;
+   margin-top: 40px;
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+   box-shadow: 0 5px 10px 5px #FF6666;
+}
+.cantact-container{
+    margin-top: 40px;
+}
+.contact-left p {
+  margin-top: 30px;
+}
+.contact-left p i {
+    color: #FF6666;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    margin: 5px;
+}
+.input-field{
+    padding: 10px;
+    margin: 5px;
+   
+}
+.submit-btn{
+    height: 30px;
+    width: 80px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
 /* NORMAL MOBILE DEVICES */
 @media screen and (min-width:400px) and (max-width:600px)
 {
