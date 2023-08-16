@@ -6,6 +6,9 @@
 
     /* background-color: #1a0000; */
 }
+body{
+    margin: 0;
+}
 
 .logo{
     color: black;
@@ -14,6 +17,7 @@
 font-family: 'Edu SA Beginner', cursive;
 font-family: 'Great Vibes', cursive;
 font-family: 'Lumanosimo', cursive;
+
 }
 .navbar{
     display: flex;
@@ -22,7 +26,13 @@ font-family: 'Lumanosimo', cursive;
   padding-left: 10%;
   padding-right: 10%;
  box-shadow: 0 -2px 15px -2px black;
+ position: fixed;
+ width: 100%;
+background-color: white;
 }
+/* .navbar-container{
+    position: fixed;
+} */
 nav{
     display: flex;
     align-items: center;
@@ -30,7 +40,7 @@ nav{
     padding-top: 0px;
     padding-left: 10%;
     padding-right: 10%;
-   
+
 }
 nav ul li{
     list-style-type: none;
@@ -60,13 +70,14 @@ span{
 .text-common{
     color: black;
     margin-left: 200px;
-    margin-top: 100px;
-    font-family: 'Satisfy', cursive;
-    font-size: 23px;
+    margin-top: 250px;
+    /* font-family: 'Satisfy', cursive; */
+    font-family: sans-serif;
+    font-size: 20px;
 }
 .port-container{
     display: flex;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 /* .imgposter{
     position: relative;
@@ -99,6 +110,7 @@ margin-top: 20px;
 }
 .girl-img{
     margin-left: 140px;
+    margin-top: 100px;
 }
 .about-me-objective{
    padding: 60px;
@@ -151,6 +163,7 @@ form{
    height: 300px;
    width: 500px;
    margin-top: 40px;
+
 }
 .contact{
     display: flex;
@@ -177,276 +190,57 @@ form{
     font-size: 25px;
     display: inline-block;
     margin: 5px;
+    color: black;
 }
 .input-field{
     padding: 10px;
     margin: 5px;
-   
+    border-radius: 5px;
 }
 .submit-btn{
     height: 30px;
-    width: 80px;
+    width: 100px;
     margin-left: 5px;
     margin-top: 20px;
+    background-color: #FF6666;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: 1s;
+    border: none;
+}
+.submit-btn:hover{
+    cursor: pointer;
+   border-radius: 20px
+}
+/* .project-card-1{
+    background-image: url(./../img/snip1.png) ;
+  
+
+    background-position: center;
+   
+} */
+.project-1{
+   text-align: center;
 }
 
+
 /* NORMAL MOBILE DEVICES */
-@media screen and (min-width:400px) and (max-width:600px)
+@media screen and (min-width:400px) and (max-width:711px)
 {
-    *{
-        margin: 0;
-        padding: 0;
-        font-family: sans-serif;
-        background-color: burlywood;
-    }
-    
-    .logo{
-        color: white;
-        font-size: 20PX;
-        font-family: 'Borel', cursive;
-    font-family: 'Edu SA Beginner', cursive;
-    font-family: 'Great Vibes', cursive;
-    font-family: 'Lumanosimo', cursive;
-    }
-    .navbar{
-        display: flex;
-        justify-content: space-between;
-      padding-top: 20px;
-      padding-left: 3%;
-      padding-right: 3%;
-    
-    }
-    nav{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-top: 0px;
-        padding-left: 2%;
-        padding-right: 2%;
-    }
-    nav ul li{
-        list-style-type: none;
-       display: inline-block;
-       padding: 5px 3px;
-    
-    }
-    nav ul li a{
-        text-decoration: none;
-        color: white;
-        font-size: 12px;
-    }
-    nav ul li a:hover{
-        color: rgb(224, 226, 81);
-        transition: 1s;
-    }
-    h2{
-        color: white;
-        font-family: 'Asap Condensed', sans-serif;
-       font-size: 10px;
-    }
-    span{
-        color: yellow;
-        font-family: 'Kaushan Script', cursive;
-        font-size: 20px;
-    }
-    .text-common{
-        color: white;
-        margin-left: 30px;
-        margin-top: 80px;
-        font-family: 'Satisfy', cursive;
-        font-size: 16px;
-    }
-    .imgposter{
-        position: relative;
-        margin-left: 350px;
-        margin-top: 200px;
-    
-    }
-    .visitsite{
-     display: flex;
-    margin-top: 50px;
-    
-    }
-    .btn{
-        font-family: 'Asap Condensed', sans-serif;
-        font-size: 8px; 
-        padding-left: 8px;
-        padding-right: 8px;
-    } 
-    .girl-img{
-        height: 70px;
-    }
+  nav{
+display: none;
+  } 
+  .port-container{
+ display: flex;
+ flex-direction: column;
+  } 
+  .girl-img{
+    width: 100px;
+  }
 }
 /* NORMAL TABLETS DEVICES */
-@media screen and (min-width:600px) and (max-width:690px)
+@media screen and (min-width:712px) and (max-width:1180px)
 {
-    *{
-        margin: 0;
-        padding: 0;
-        font-family: sans-serif;
-        background-color: rgb(60, 60, 247);
-    }
     
-    .logo{
-        color: white;
-        font-size: 30PX;
-        font-family: 'Borel', cursive;
-    font-family: 'Edu SA Beginner', cursive;
-    font-family: 'Great Vibes', cursive;
-    font-family: 'Lumanosimo', cursive;
-    }
-    .navbar{
-        display: flex;
-        justify-content: space-between;
-      padding-top: 30px;
-      padding-left: 6%;
-      padding-right: 6%;
-    
-    }
-    nav{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-top: 0px;
-        padding-left: 6%;
-        padding-right: 6%;
-    }
-    nav ul li{
-        list-style-type: none;
-       display: inline-block;
-       padding: 3px 3px;
-    
-    }
-    nav ul li a{
-        text-decoration: none;
-        color: white;
-      
-    }
-    nav ul li a:hover{
-        color: rgb(224, 226, 81);
-        transition: 1s;
-    }
-    h2{
-        color: white;
-        font-family: 'Asap Condensed', sans-serif;
-       font-size: 14px;
-    }
-    span{
-        color: yellow;
-        font-family: 'Kaushan Script', cursive;
-        font-size: 30px;
-    }
-    .text-common{
-        color: white;
-        margin-left: 30px;
-        margin-top: 80px;
-        font-family: 'Satisfy', cursive;
-        font-size: 23px;
-    }
-    .imgposter{
-        position: relative;
-        margin-left: 460px;
-        margin-top: 190px;
-    
-    }
-    .visitsite{
-     display: flex;
-    margin-top: 50px;
-    
-    }
-    .btn{
-        font-family: 'Asap Condensed', sans-serif;
-        font-size: 8px; 
-        padding-left: 8px;
-        padding-right: 8px;
-    } 
-    .girl-img{
-        height: 140px;
-    }
 }
-/* NORMAL LAPTOP /DESKTOP DEVICES */
-@media screen and (min-width:690px) and (max-width:800px)
-{
-    *{
-        margin: 0;
-        padding: 0;
-        font-family: sans-serif;
-        background-color: coral;
-    }
-    
-    .logo{
-        color: white;
-        font-size: 30PX;
-        font-family: 'Borel', cursive;
-    font-family: 'Edu SA Beginner', cursive;
-    font-family: 'Great Vibes', cursive;
-    font-family: 'Lumanosimo', cursive;
-    }
-    .navbar{
-        display: flex;
-        justify-content: space-between;
-      padding-top: 30px;
-      padding-left: 6%;
-      padding-right: 6%;
-    
-    }
-    nav{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-top: 0px;
-        padding-left: 6%;
-        padding-right: 6%;
-    }
-    nav ul li{
-        list-style-type: none;
-       display: inline-block;
-       padding: 3px 3px;
-    
-    }
-    nav ul li a{
-        text-decoration: none;
-        color: white;
-    }
-    nav ul li a:hover{
-        color: rgb(224, 226, 81);
-        transition: 1s;
-    }
-    h2{
-        color: white;
-        font-family: 'Asap Condensed', sans-serif;
-       font-size: 14px;
-    }
-    span{
-        color: yellow;
-        font-family: 'Kaushan Script', cursive;
-        font-size: 30px;
-    }
-    .text-common{
-        color: white;
-        margin-left: 30px;
-        margin-top: 80px;
-        font-family: 'Satisfy', cursive;
-        font-size: 23px;
-    }
-    .imgposter{
-        position: relative;
-        margin-left: 460px;
-        margin-top: 190px;
-    
-    }
-    .visitsite{
-     display: flex;
-    margin-top: 50px;
-    
-    }
-    .btn{
-        font-family: 'Asap Condensed', sans-serif;
-        font-size: 8px; 
-        padding-left: 8px;
-        padding-right: 8px;
-    } 
-    .girl-img{
-        height: 140px;
-    } 
-}
+
