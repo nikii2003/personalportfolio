@@ -13,13 +13,10 @@ body{
 .logo{
     color: black;
     font-size: 38PX;
-    font-family: 'Borel', cursive;
-font-family: 'Edu SA Beginner', cursive;
-font-family: 'Great Vibes', cursive;
-font-family: 'Lumanosimo', cursive;
+    font-family: 'Lumanosimo', cursive;
 
 }
-.navbar{
+/* .navbar{
     display: flex;
     justify-content: space-between;
   padding-top: 10px;
@@ -29,11 +26,11 @@ font-family: 'Lumanosimo', cursive;
  position: fixed;
  width: 100%;
 background-color: white;
-}
+} */
 /* .navbar-container{
     position: fixed;
 } */
-nav{
+/* nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,8 +38,8 @@ nav{
     padding-left: 10%;
     padding-right: 10%;
 
-}
-nav ul li{
+} */
+/* nav ul li{
     list-style-type: none;
    display: inline-block;
    padding: 10px 20px;
@@ -56,13 +53,21 @@ nav ul li a{
 nav ul li a:hover{
     color: #FF6666;
     transition: 1s;
+} */
+.contact-btn{
+    margin-top: 110px;
+   
+}
+
+ .about-page{
+ margin-top: 200px;
 }
 h2{
     color: black;
     font-family: 'Asap Condensed', sans-serif;
    font-size: 30px;
 }
-span{
+.kadiwike{
     color: #FF6666;
     font-family: 'Kaushan Script', cursive;
     font-size: 50px;
@@ -70,7 +75,7 @@ span{
 .text-common{
     color: black;
     margin-left: 200px;
-    margin-top: 250px;
+    margin-top: 120px;
     /* font-family: 'Satisfy', cursive; */
     font-family: sans-serif;
     font-size: 20px;
@@ -79,12 +84,13 @@ span{
     display: flex;
     /* margin-top: 40px; */
 }
-/* .imgposter{
-    position: relative;
-    margin-left: 30px;
-  top: -300px;
+ .imgposter{
+    /* position: relative;
+    margin-left: 30px; */
+  top: 30px;
+  
 
-} */
+} 
 .media{
  display: flex;
 height: 40px;
@@ -93,65 +99,57 @@ justify-content: space-between;
 margin-top: 20px;
 
 }
-.about-me-content{
-    height: 650px;
-    width: 1090px;
-    box-shadow: 0px 0px 10px 1px #FF6666 ;
+
+.its-me-img{
+ 
+    display: inline;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-    border-radius: 10px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+  
 }
 
-.btn{
+.btn-1{
     font-family: 'Asap Condensed', sans-serif;
-    font-size: 15px;  
+    font-size: 15px; 
+    border: 1px solid black; 
 }
 .girl-img{
     margin-left: 140px;
-    margin-top: 100px;
+    margin-top: 120px;
 }
-.about-me-objective{
-   padding: 60px;
-}
-.skill-card{
-    height: 150px;
-    width: 150px;
-    /* border: 1px solid black; */
-}
-.skill-card-container{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-.skill-card-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
+
+
 .project-card{
     height: 300px;
     width: 455px;
-   box-shadow: 2px 1px 5px 2px #FF6666;
+    box-shadow: 0 -2px 15px -2px black;
     margin: 30px;
 }
 .project-card-container-1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+   margin-top: 30px;
+ 
 }
 .project-card-container-2{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-   
+    margin-top: 30px;
 }
 .project-card-overall{
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
+   
+
 
 }
 /* .contact-left{
@@ -169,7 +167,7 @@ form{
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
-   box-shadow: 0 5px 10px 5px #FF6666;
+    box-shadow: 0 -2px 15px -2px black;
 }
 .cantact-container{
     margin-top: 40px;
@@ -234,10 +232,125 @@ display: none;
  display: flex;
  flex-direction: column;
   } 
-  .girl-img{
-    width: 100px;
-  }
+  .text-common{
+    color: black;
+    /* margin-left: 200px;
+    margin-top: 120px; */
+    /* font-family: 'Satisfy', cursive; */
+    font-family: sans-serif;
+    font-size: 10px;
 }
+.girl-img{
+   height: 200px;
+   width: 300px;
+   align-items: center;
+
+}
+.btn{
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 15px;  
+}
+span{
+    color: #FF6666;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+}
+
+.logo{
+    font-size: 10px;
+}
+.btn{
+    /* font-family: 'Asap Condensed', sans-serif; */
+ height: 40px;
+ width: 140px;
+
+}
+.media{
+    display: flex;
+   height: 20px;
+   width: 60px;
+   justify-content: space-between;
+   margin-top: 20px;
+   
+   }
+   .linkedin-logo{
+    height: 15px;
+   }
+   .github-logo{
+    height: 15px;
+   }
+   .insta-logo{
+    height: 15px;
+   }
+   .about-me-container{
+    /* background-color: #FF6666; */
+  
+    box-shadow: 0 -1px 8px -2px black;
+    width: 100vw;
+    height: 550px;
+    
+}
+ .its-me-img{
+ 
+    display: inline;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+  
+}
+.about-content{
+    margin-right: 2px;
+    margin-left: 8px;
+    color: rgb(17, 16, 17);
+    font-family: sans-serif;
+    font-size: 10px;
+  
+    padding: 10px 30px 30px 50px;
+    
+} 
+.heading{
+    font-size: 15px;
+    
+}
+.project-card-overall{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 10px;
+}
+.heading-2{
+    font-size: 10px;
+    margin-top: 5px;
+}
+.project-card{
+    height: 300px;
+    width: 455px;
+    box-shadow: 0 -2px 15px -2px black;
+    margin: 30px;
+}
+.project-card-container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+ 
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    box-shadow: 0 -2px 15px -2px black;
+}
+} 
+
+
+
+
 /* NORMAL TABLETS DEVICES */
 @media screen and (min-width:712px) and (max-width:1180px)
 {
