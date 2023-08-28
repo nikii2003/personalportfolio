@@ -272,10 +272,11 @@ form{
 
 
 /* NORMAL MOBILE DEVICES */
-@media screen and (min-width:400px) and (max-width:711px)
+@media screen and (min-width:200px) and (max-width:711px)
 {
   nav{
 display: none;
+flex-grow: 1;
   } 
   .port-container{
  display: flex;
@@ -395,14 +396,13 @@ span{
     margin-top: 100px;
     box-shadow: 0 -2px 15px -2px black;
 }
+.form {
+    width: 80%;
+}
 } 
 
 
 
 
-/* NORMAL TABLETS DEVICES */
-@media screen and (min-width:712px) and (max-width:1180px)
-{
-    
-}
+
 
