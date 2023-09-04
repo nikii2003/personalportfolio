@@ -25,7 +25,7 @@ I'm Nikita Kadiwike, I'm a web developer focuses on front-end and back-end techn
 Here are some of the skills I possess:
 
 - ### Technical Skills:
-  programing language:JavaScript core Java and C .
+  programing language:JavaScript core Java and C .<br>
   Web Development: HTML, CSS, BootStrap.
 - ### Tools and Software: 
   Version Control: Git, GitHub.
