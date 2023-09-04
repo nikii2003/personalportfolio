@@ -290,7 +290,7 @@ form{
 }
 .footer{
     height: 60vh;
-    background-color: #f1f1f1fd;
+    background-color: #f0edede3;
     font-family: sans-serif;
     font-size: 18px;
    
@@ -457,13 +457,14 @@ margin-top: 5px;
     margin-top: -20px;
     margin-top: 5px;
 }
-.footer-flex{
-    
+.footer-flex{ 
     flex-wrap: wrap;
- 
 }
 .container-height{
-    height: 200vh;
+    height: 170vh;
+}
+.contact-information{
+    margin-left: -100px;
 }
 
 } 
