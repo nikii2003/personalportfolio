@@ -8,16 +8,16 @@ I'm Nikita Kadiwike, I'm a web developer focuses on front-end and back-end techn
 
 ## Projects
 
-### Project 1: [Project Name]
+### Project 1: [FitLifeGym]
 
 - **Description:** Our mission is to make fitness more accesible ,more motivating ,and easier to maintain.one of our primary goal we provide services,facility,membership.
-- **Technologies Used:** I use technology  HTML, CSS,BOOTSTRAP.
+- **Technologies Used:**  HTML, CSS,BOOTSTRAP.
 - **Link:** [Project Link](https://github.com/nikii2003/FitLife-GYM)
 
-### Project 2: [Project Name]
+### Project 2: [Sports Gallaxy]
 
 - **Description:** Sport Galaxy, your ultimate destination for all things sports and gaming! the immerse game of hockey, cricket, tennis, chess, football, and esports.
-- **Technologies Used:** We use HTML & CSS.
+- **Technologies Used:**  HTML & CSS.
 - **Link:** [Project Link](https://github.com/nikii2003/sports-gallaxy-igcp1-first-project)
 
 ## Skills
@@ -29,8 +29,8 @@ Here are some of the skills I possess:
   Web Development: HTML, CSS, BootStrap.
 - ### Tools and Software: 
   Version Control: Git, GitHub.
-- Skill 4:IDEs: Visual Studio Code
-### Soft Skills
+- IDEs: Visual Studio Code
+  ### Soft Skills
   Team Collaboration: Effective at working in cross-functional teams.
 ## Contact
 
